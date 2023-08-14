@@ -3,6 +3,7 @@ package com.youtube.student.model;
 import jakarta.persistence.*;
 import lombok.*;
 
+@Builder
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
