@@ -9,7 +9,7 @@ import lombok.*;
 @Getter
 @Setter
 @Entity
-@Table
+@Table(name="student_details")
 public class Student {
 
     @Id
